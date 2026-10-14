@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'array'     => ':attribute harus berupa daftar.',
+    'confirmed' => 'Konfirmasi :attribute tidak cocok.',
+    'email'     => ':attribute harus berupa alamat email yang valid.',
+    'exists'    => ':attribute yang dipilih tidak valid.',
+    'image'     => ':attribute harus berupa gambar.',
+    'in'        => ':attribute yang dipilih tidak valid.',
+    'integer'   => ':attribute harus berupa bilangan bulat.',
+    'max' => [
+        'array'   => ':attribute maksimal :max item.',
+        'file'    => 'Ukuran :attribute maksimal :max KB.',
+        'numeric' => ':attribute maksimal :max.',
+        'string'  => ':attribute maksimal :max karakter.',
+    ],
+    'min' => [
+        'array'   => ':attribute minimal :min item.',
+        'file'    => 'Ukuran :attribute minimal :min KB.',
+        'numeric' => ':attribute minimal :min.',
+        'string'  => ':attribute minimal :min karakter.',
+    ],
+    'numeric'   => ':attribute harus berupa angka.',
+    'required'  => ':attribute wajib diisi.',
+    'string'    => ':attribute harus berupa teks.',
+    'unique'    => ':attribute sudah dipakai.',
+    'uploaded'  => 'Unggah :attribute gagal. Coba file yang lebih kecil.',
+
+    'attributes' => [
+        'name'                  => 'Nama',
+        'email'                 => 'Email',
+        'password'              => 'Password',
+        'password_confirmation' => 'Ulangi password',
+        'price'                 => 'Harga',
+        'stock'                 => 'Stok',
+        'category'              => 'Kategori',
+        'emoji'                 => 'Ikon',
+        'image'                 => 'Foto',
+        'customer_name'         => 'Nama pemesan',
+        'note'                  => 'Catatan',
+        'items'                 => 'Produk',
+        'items.*.product_id'    => 'Produk',
+        'items.*.qty'           => 'Jumlah',
+        'status'                => 'Status',
+    ],
+];
